@@ -8,7 +8,7 @@ apis = {"timetables": {"url": "https://api.deutschebahn.com/timetables/v1/",
                           "return": "json"}
         }
 cancel_states = {"a": "added", "c": "cancelled", "p": "planned"}
-headers = {'Authorization': 'Bearer e9e44e33b8db8147fc5cb03e5df2beb2'}
+headers = {'Authorization': 'Bearer '}
 
 dt = datetime.now()
 date = dt.strftime('%y%m%d')
